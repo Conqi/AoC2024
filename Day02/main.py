@@ -1,3 +1,6 @@
+import time
+start_time = time.perf_counter()
+
 safe_counter1 = 0
 safe_counter2 = 0
 
@@ -68,3 +71,6 @@ for input in open("Day02/input.txt"):
 
 print(safe_counter1, safe_counter2)
 
+end_time = time.perf_counter()
+elapsed_time = end_time - start_time
+print(f"Finised in {elapsed_time:.6f}")
