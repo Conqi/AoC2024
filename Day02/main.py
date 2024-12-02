@@ -1,7 +1,7 @@
 safe_counter1 = 0
 safe_counter2 = 0
 
-for input in open("input"):
+for input in open("Day02\input.txt"):
     line = [int(x) for x in input.split()]
     i = 0
     dampener_use = False
