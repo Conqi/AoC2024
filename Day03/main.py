@@ -16,6 +16,7 @@ def check_second_number(j):
     else: return(0)
 
 for input in open("Day03/input.txt"):
+for input in open("Day03/input.txt"):
     character+=list(input.rstrip())
 
 for i in range(len(character)):
