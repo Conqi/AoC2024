@@ -15,7 +15,7 @@ def check_second_number(j):
         return(int(character[j+1]))
     else: return(0)
 
-for input in open("Day03\input.txt"):
+for input in open("Day03/input.txt"):
     character+=list(input.rstrip())
 
 for i in range(len(character)):
@@ -51,4 +51,4 @@ print(result2)
 
 end_time = time.perf_counter()
 elapsed_time = end_time - start_time
-print(f"Finised in {elapsed_time:.6f}")
+print(f"Finished in {elapsed_time:.6f}")
