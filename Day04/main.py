@@ -46,17 +46,17 @@ for i in range(grid_length):
         #M M
         # A
         #S S
-        if grid[i-line_length-1] == "M" and grid[i-line_length+1] == "M" and grid[i+line_length-1] == "S" and grid[i+line_length+1] == "S":
+        elif grid[i-line_length-1] == "M" and grid[i-line_length+1] == "M" and grid[i+line_length-1] == "S" and grid[i+line_length+1] == "S":
             masmas_counter +=1
         #S M
         # A
         #S M
-        if grid[i-line_length-1] == "S" and grid[i-line_length+1] == "M" and grid[i+line_length-1] == "S" and grid[i+line_length+1] == "M":
+        elif grid[i-line_length-1] == "S" and grid[i-line_length+1] == "M" and grid[i+line_length-1] == "S" and grid[i+line_length+1] == "M":
             masmas_counter +=1
         #S S
         # A
         #M M
-        if grid[i-line_length-1] == "S" and grid[i-line_length+1] == "S" and grid[i+line_length-1] == "M" and grid[i+line_length+1] == "M":
+        elif grid[i-line_length-1] == "S" and grid[i-line_length+1] == "S" and grid[i+line_length-1] == "M" and grid[i+line_length+1] == "M":
             masmas_counter +=1
 
 print(xmas_counter)
